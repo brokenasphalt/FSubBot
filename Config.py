@@ -8,15 +8,15 @@ class Config():
     APP_ID = os.environ.get("APP_ID", 6)
     API_HASH = os.environ.get("API_HASH", None)
     SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(658905997)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = "1495982554:AAF3m6ccvtVxl6f-McE2zDsm3WWPcjOli4k"
-    DATABASE_URL = "postgres://uyhwcxocswwjpl:0b952d94cbba0bcdef7e8e9af40fb67c798d980380d7aee0e2c50104f424d672@ec2-54-165-164-38.compute-1.amazonaws.com:5432/d7ic4cveqrbm4q"
-    APP_ID = "1587067"
-    API_HASH = "34996e870761c2f772e86ee155079ff5"
+    BOT_TOKEN = "1511657790:AAGft0IIajOMhrg7MIC7-ugQcoPcJaMvZM8"
+    DATABASE_URL = "postgres://qyjmltxvivayvh:0b5b35856bdd6a5a20b5cb5794123b08411ee5b53a3463a6fc2c0886fd2c7752@ec2-34-198-31-223.compute-1.amazonaws.com:5432/d92lq7vealqsnp"
+    APP_ID = "2629442"
+    API_HASH = "01b1a378f9c961cffcb022dfda679b0b"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(658905997)
     SUDO_USERS = list(set(SUDO_USERS))
 
 
@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n**/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe**",
         
-        "**⭕️ My Name :  𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 𝗕𝗢𝗧**\n\n**⭕️ Creater : @Iggie**\n\n**⭕️ Language :** `Python3`\n\n**⭕️ Library :** **Pyrogram Asyncio 0.16.1**\n\n**⭕️ Source Code : 👉** [Click Here](https://t.me/NoSourceCode)"
+        "**⭕️ My Name :  𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 𝗕𝗢𝗧**\n\n**⭕️ Creater : @MalluBhai**\n\n**⭕️ Language :** `Python3`\n\n**⭕️ Library :** **Pyrogram Asyncio 0.16.1**\n\n**⭕️ Source Code : 👉** [Click Here](https://t.me/NoSourceCode)"
       ]
 
       START_MSG = "**Hello [{}](tg://user?id={}) 👋,**\n**I Can Force Members To Join A Specific Channel\nBefore Writing Messages In The Group. Learn More By Clicking /help**"
